@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/section_animal_color"
+    android:id="@+id/toolbar_category"
+    android:minHeight="?attr/actionBarSize">
+
+    <ImageView
+        android:layout_marginRight="@dimen/main_padding"
+        android:id="@+id/iv_category_go_back"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/main_padding"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/tv_toolbar_title"
+        android:textSize="@dimen/toolbar_text_size"
+        android:textColor="@color/white"
+        android:text="@string/people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.v7.widget.Toolbar>

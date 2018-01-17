@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:clickable="true"
+    tools:context="com.hk.paintme.hkdrawingtest.fragments.GalleryFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_above="@+id/ll_tools"
+        android:layout_below="@+id/iv_save">
+
+    <com.hk.paintme.hkdrawingtest.DrawingView
+        android:background="@color/white"
+        android:id="@+id/drawing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+        <ImageView
+            android:background="@android:color/transparent"
+            android:layout_centerInParent="true"
+            android:id="@+id/iv_image_for_paint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+
+
+        <ProgressBar
+            android:id="@+id/pb_paint"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/main_margin"
+        android:src="@drawable/save_v" />
+
+
+  <include layout="@layout/layout_tools"/>
+</RelativeLayout>

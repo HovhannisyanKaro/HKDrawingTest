@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="small_brush">10dp</dimen>
+    <integer name="small_size_draw">2</integer>
+    <integer name="small_size">10</integer>
+    <dimen name="medium_brush">20dp</dimen>
+    <integer name="medium_size">20</integer>
+    <integer name="medium_size_draw">4</integer>
+    <dimen name="large_brush">45dp</dimen>
+    <integer name="large_size">30</integer>
+    <integer name="large_size_draw">6</integer>
+
+    <dimen name="main_padding">5dp</dimen>
+    <dimen name="main_margin">16dp</dimen>
+    <dimen name="selection_indicator_bottom_margin">30dp</dimen>
+    <dimen name="toolbar_text_size">18sp</dimen>
+    <dimen name="category_image_border_size">170dp</dimen>
+    <dimen name="category_image_size">157dp</dimen>
+    <dimen name="toolbar_bottom_margin">16dp</dimen>
+    <dimen name="tools_width">144dp</dimen>
+    <dimen name="tools_height">48dp</dimen>
+    <dimen name="shape_size">48dp</dimen>
+    <dimen name="shape_radius">10dp</dimen>
+
+    <dimen name="dialog_brush_width">183dp</dimen>
+    <dimen name="dialog_brush_height">67dp</dimen>
+    <dimen name="ialog_color_width">320dp</dimen>
+    <dimen name="ialog_color_height">159dp</dimen>
+    <dimen name="padding_for_border">36dp</dimen>
+
+    <item name="item_color_width" format="float" type="dimen">1.5</item>
+
+</resources>

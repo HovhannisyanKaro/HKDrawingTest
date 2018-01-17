@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_bc_color">#f8d33c</color>
+    <color name="loader_trans_color">#51000000</color>
+
+    <color name="main_background">#fff</color>
+    <color name="white">#fff</color>
+
+    <color name="section_animal_color">#8ebb8c</color>
+    <color name="section_cars_color">#a7a7a8</color>
+    <color name="section_nature_color">#f57d59</color>
+    <color name="section_people_color">#4c99a0</color>
+    <color name="section_objects_color">#f3b245</color>
+
+    <color name="icon_orange_color">#fd9e01</color>
+    <color name="icon_fiolet_color">#c24fc0</color>
+    <color name="dialog_brush_background">#eeebeb</color>
+
+
+    <color name="cpb_default_color">#616161</color>
+    <color name="cpb_dasdasdefault_color">#a2cfb7</color>
+
+</resources>

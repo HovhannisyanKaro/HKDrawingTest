@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/ialog_color_width"
+    android:layout_height="@dimen/ialog_color_height"
+    android:background="@color/dialog_brush_background"
+    android:weightSum="3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:weightSum="9"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#000001"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#000001" />
+
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#f24237"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#f24237" />
+
+
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#e71e63"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#e71e63" />
+
+
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#9b27b0"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#9b27b0" />
+
+
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#663ab7"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#663ab7" />
+
+
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#3f50b5"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#3f50b5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:weightSum="9"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#2195f2"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#2195f2" />
+
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#03a8f3"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#03a8f3" />
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#4bae50"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#4bae50" />
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#8ac14a"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#8ac14a" />
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#cbda3a"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#cbda3a" />
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#fde93c"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#fde93c" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:weightSum="9"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#fde93c"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#fde93c" />
+
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#fdbf08"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#fdbf08" />
+
+
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#fd9701"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#fd9701" />
+
+
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#fd5623"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#fd5623" />
+
+
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#785448"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#785448" />
+
+
+
+
+        <ImageButton
+            android:layout_weight="@dimen/item_color_width"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#5f7c8b"
+            android:contentDescription="@string/paint"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="#5f7c8b" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

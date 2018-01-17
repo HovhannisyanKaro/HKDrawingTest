@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_tools"
+    android:layout_width="@dimen/tools_width"
+    android:layout_height="@dimen/tools_height"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="@dimen/main_margin"
+    android:orientation="horizontal"
+    android:visibility="visible"
+    android:weightSum="3">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ToggleButton
+            android:id="@+id/tb_colors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_colors"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ToggleButton
+            android:id="@+id/tb_brush"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_brush"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ToggleButton
+            android:id="@+id/tb_eraser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_eraser"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+</LinearLayout>

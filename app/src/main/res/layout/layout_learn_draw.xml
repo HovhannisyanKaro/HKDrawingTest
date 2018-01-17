@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:clickable="true"
+    tools:context="com.hk.paintme.hkdrawingtest.fragments.paint.SectionsFragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_sections"
+        android:layout_below="@+id/iv_draw_check_state"
+        android:background="@drawable/draw_border_background" />
+
+
+    <ToggleButton
+        android:visibility="invisible"
+        android:textOff=""
+        android:textOn=""
+        android:id="@+id/iv_draw_check_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/selector_learn_to_draw_tools"/>
+
+
+    <RadioGroup
+        android:id="@+id/rg_sections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/selection_indicator_bottom_margin"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <RadioButton
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <RadioButton
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</RelativeLayout>

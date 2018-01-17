@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_loader"
+    android:background="@color/section_animal_color"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:visibility="gone"
+    android:layout_height="match_parent"
+    tools:context="com.hk.paintme.hkdrawingtest.activities.LaunchScreenActivity">
+
+    <ImageView
+        android:id="@+id/iv_rotate_ic"
+        android:layout_centerInParent="true"
+        android:src="@drawable/loader_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/btn_start"
+        android:text="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btn_stop"
+        android:layout_toEndOf="@+id/btn_stop" />
+
+    <Button
+        android:visibility="invisible"
+
+        android:id="@+id/btn_stop"
+        android:text="stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@android:color/white"
+    tools:context="com.hk.paintme.hkdrawingtest.fragments.MainFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context="com.hk.paintme.hkdrawingtest.activities.MainActivity">
+
+
+            <TextView
+                android:id="@+id/tv_draw"
+                android:background="@drawable/draw_background"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:id="@+id/tv_paint"
+                android:background="@drawable/paint_background"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ib_info"
+            android:clickable="true"
+            android:padding="@dimen/main_margin"
+            android:src="@drawable/info_ic"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
